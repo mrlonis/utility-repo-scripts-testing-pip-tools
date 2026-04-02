@@ -13,7 +13,7 @@ fi
 source utility-repo-scripts/setup_python_app.sh \
 	--debug \
 	--python_version="3.14.3" \
-	--package_manager="pip" \
+	--package_manager="pip-tools" \
 	--rebuild_venv="$rebuild_venv" \
 	--include_jumanji_house \
 	--include_prettier \
