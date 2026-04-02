@@ -1,0 +1,9 @@
+black
+configupdater
+flake8
+pip-tools
+pre-commit
+pylint
+pyyaml
+ruamel.yaml
+tomli
