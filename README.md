@@ -11,3 +11,22 @@ pip-compile requirements.in
 ```shell
 pip-compile --upgrade requirements.in
 ```
+
+## Syncing Requirements
+
+```shell
+pip-sync requirements.txt
+```
+
+## Linting
+
+```shell
+flake8 src tests
+pylint src tests
+```
+
+## Testing
+
+```shell
+pytest --cov=src tests/ -n auto
+```

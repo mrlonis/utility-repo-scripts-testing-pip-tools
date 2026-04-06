@@ -4,6 +4,10 @@ flake8
 pip-tools
 pre-commit
 pylint
+pylint-junit
+pytest
+pytest-cov
+pytest-xdist[psutil]
 pyyaml
 ruamel.yaml
 tomli
