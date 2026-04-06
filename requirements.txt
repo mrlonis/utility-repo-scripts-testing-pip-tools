@@ -12,16 +12,20 @@ build==1.4.2
     # via pip-tools
 cfgv==3.5.0
     # via pre-commit
-click==8.3.1
+click==8.3.2
     # via
     #   black
     #   pip-tools
 configupdater==3.2
     # via -r requirements.in
+coverage[toml]==7.13.5
+    # via pytest-cov
 dill==0.4.1
     # via pylint
 distlib==0.4.0
     # via virtualenv
+execnet==2.1.2
+    # via pytest-xdist
 filelock==3.25.2
     # via
     #   python-discovery
@@ -30,8 +34,12 @@ flake8==7.3.0
     # via -r requirements.in
 identify==2.6.18
     # via pre-commit
+iniconfig==2.3.0
+    # via pytest
 isort==8.0.1
     # via pylint
+junit-xml-2==1.9
+    # via pylint-junit
 mccabe==0.7.0
     # via
     #   flake8
@@ -44,6 +52,7 @@ packaging==26.0
     # via
     #   black
     #   build
+    #   pytest
     #   wheel
 pathspec==1.0.4
     # via black
@@ -55,18 +64,39 @@ platformdirs==4.9.4
     #   pylint
     #   python-discovery
     #   virtualenv
+pluggy==1.6.0
+    # via
+    #   pytest
+    #   pytest-cov
 pre-commit==4.5.1
     # via -r requirements.in
+psutil==7.2.2
+    # via pytest-xdist
 pycodestyle==2.14.0
     # via flake8
 pyflakes==3.4.0
     # via flake8
+pygments==2.20.0
+    # via pytest
 pylint==4.0.5
+    # via
+    #   -r requirements.in
+    #   pylint-junit
+pylint-junit==0.3.5
     # via -r requirements.in
 pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
+pytest==9.0.2
+    # via
+    #   -r requirements.in
+    #   pytest-cov
+    #   pytest-xdist
+pytest-cov==7.1.0
+    # via -r requirements.in
+pytest-xdist[psutil]==3.8.0
+    # via -r requirements.in
 python-discovery==1.2.1
     # via virtualenv
 pytokens==0.4.1
@@ -77,6 +107,8 @@ pyyaml==6.0.3
     #   pre-commit
 ruamel-yaml==0.19.1
     # via -r requirements.in
+six==1.17.0
+    # via junit-xml-2
 tomli==2.4.1
     # via -r requirements.in
 tomlkit==0.14.0
