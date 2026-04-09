@@ -58,7 +58,7 @@ pathspec==1.0.4
     # via black
 pip-tools==7.5.3
     # via -r requirements.in
-platformdirs==4.9.4
+platformdirs==4.9.6
     # via
     #   black
     #   pylint
@@ -88,7 +88,7 @@ pyproject-hooks==1.2.0
     # via
     #   build
     #   pip-tools
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements.in
     #   pytest-cov
@@ -97,7 +97,7 @@ pytest-cov==7.1.0
     # via -r requirements.in
 pytest-xdist[psutil]==3.8.0
     # via -r requirements.in
-python-discovery==1.2.1
+python-discovery==1.2.2
     # via virtualenv
 pytokens==0.4.1
     # via black
