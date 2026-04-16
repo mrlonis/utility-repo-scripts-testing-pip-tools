@@ -8,7 +8,7 @@ astroid==4.0.4
     # via pylint
 black==26.3.1
     # via -r requirements.in
-build==1.4.2
+build==1.4.3
     # via pip-tools
 cfgv==3.5.0
     # via pre-commit
@@ -26,7 +26,7 @@ distlib==0.4.0
     # via virtualenv
 execnet==2.1.2
     # via pytest-xdist
-filelock==3.25.2
+filelock==3.28.0
     # via
     #   python-discovery
     #   virtualenv
@@ -48,7 +48,7 @@ mypy-extensions==1.1.0
     # via black
 nodeenv==1.10.0
     # via pre-commit
-packaging==26.0
+packaging==26.1
     # via
     #   black
     #   build
@@ -113,7 +113,7 @@ tomli==2.4.1
     # via -r requirements.in
 tomlkit==0.14.0
     # via pylint
-virtualenv==21.2.0
+virtualenv==21.2.4
     # via pre-commit
 wheel==0.46.3
     # via pip-tools
