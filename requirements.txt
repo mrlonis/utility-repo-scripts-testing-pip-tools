@@ -6,13 +6,13 @@
 #
 astroid==4.0.4
     # via pylint
-black==26.3.1
+black==26.5.1
     # via -r requirements.in
 build==1.5.0
     # via pip-tools
 cfgv==3.5.0
     # via pre-commit
-click==8.3.3
+click==8.4.0
     # via
     #   black
     #   pip-tools
