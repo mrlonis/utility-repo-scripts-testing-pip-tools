@@ -22,11 +22,11 @@ coverage[toml]==7.14.1
     # via pytest-cov
 dill==0.4.1
     # via pylint
-distlib==0.4.1
+distlib==0.4.2
     # via virtualenv
 execnet==2.1.2
     # via pytest-xdist
-filelock==3.29.1
+filelock==3.29.3
     # via
     #   python-discovery
     #   virtualenv
