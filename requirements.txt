@@ -6,7 +6,7 @@
 #
 astroid==4.0.4
     # via pylint
-black==26.5.1
+black==26.10.1
     # via -r requirements.in
 build==1.6.1
     # via pip-tools
