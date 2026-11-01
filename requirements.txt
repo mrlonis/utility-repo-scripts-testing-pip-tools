@@ -36,7 +36,7 @@ identify==2.6.20
     # via pre-commit
 iniconfig==2.3.0
     # via pytest
-isort==8.0.1
+isort==9.0.2
     # via pylint
 junit-xml-2==1.9
     # via pylint-junit
@@ -45,7 +45,9 @@ mccabe==0.7.0
     #   flake8
     #   pylint
 mypy-extensions==1.1.0
-    # via black
+    # via
+    #   black
+    #   isort
 nodeenv==1.11.0
     # via pre-commit
 packaging==26.3
