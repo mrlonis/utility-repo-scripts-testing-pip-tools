@@ -16,7 +16,7 @@ click==8.5.0
     # via
     #   black
     #   pip-tools
-configupdater==3.2
+configupdater==4.0.1
     # via -r requirements.in
 coverage[toml]==7.17.0
     # via pytest-cov
